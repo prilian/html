@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 80px;
+    background: black;
+    color: white;
+    }
+    
+    
+    nav a{
+        color: inherit;
+        text-decoration: none;
+        font-size: 13px;
+    
+    }
+    
+    nav a:hover{
+    color: rgb(108, 114, 113);
+    transition: 1 s ease-in-out;
+    transition-delay: 0.2s;
+    }
+    
+    nav h3{
+        font-family: "Playfair Display",serif;
+        font-size: 30px;
+        letter-spacing: 0.8px;
+    }
+    
+    nav ul{
+        display: flex;
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    ion-icon{
+        font-size: 20px;
+    }
+
+    .section_1{
+        display: block;
+        padding-top: 10%;
+    }
+
+    .section_1__text .container{
+    padding: 100px 20px 50px;
+   }
+
+    .section_1 h2{
+
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .section_1 p{
+        letter-spacing: 0.8px;
+        margin-bottom: 25px;
+    }
+
+    .section_1__img{
+        background-image: url("Bacground.png.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        border-radius: 50%;
+    }
+
+    @media only screen and (min-width: 1000px){
+        .section_1{
+            display: flex;
+        }
+        .section_1__text{
+           flex: 1;
+           order: 2;
+        }
+        .section_1__img{
+            flex: 1;
+            order: 1;
+        }
+    }
+
+    .section_2{
+        display: block;
+    }
+
+    .section_2__text .container{
+        padding: 50px 20px;
+     }
+    
+    .section_2 h2{
+        font-size: 35px;
+        margin-bottom: 25px;
+     }
+    
+    .section_2 p{
+        letter-spacing: 0.8px;
+            margin-bottom: 30px;
+    }
+
+    .section_2__img{
+        background-image: url('Mmbaca.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+    }
+
+    @media only screen and (min-width: 1000px){
+        .section_2{
+            display: flex;
+        }
+        .section_2__text{
+           flex: 1;
+        }
+        .section_2__img{
+            flex: 1;
+        }
+    }
+
+    .section_3{
+        display: block;
+    }
+
+    .section_3__text .container{
+        padding: 50px 20px;
+     }
+    
+    .section_3 h2{
+            margin-bottom: 25px;
+     }
+    
+    .section_3 p{
+        letter-spacing: 0.8px;
+            margin-bottom: 25px;
+    }
+
+    .section_3__img{
+        background-image: url("Badminton.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+    }
+
+    @media only screen and (min-width: 1000px){
+        .section_3{
+            display: flex;
+        }
+        .section_3__text{
+           flex: 1;
+           order: 2;
+        }
+        .section_3__img{
+            flex: 1;
+            order: 1;
+        }
+    }
+
+    .section_4{
+        display: block;
+    }
+
+    .section_4__text .container{
+        padding: 50px 20px;
+     }
+    
+    .section_4 h2{
+            margin-bottom: 25px;
+     }
+    
+    .section_4 p{
+        letter-spacing: 0.8px;
+            margin-bottom: 25px;
+    }
+
+    .section_4__img{
+        background-image: url("Cook.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+    }
+
+    @media only screen and (min-width: 1000px){
+        .section_4{
+            display: flex;
+        }
+        .section_4__text{
+           flex: 1;
+        }
+        .section_4__img{
+            flex: 1;
+        }
+    }
+
+    .section_4 div{
+        margin-bottom: 40px;
+    }
+
+    .footer_2{
+        padding: 50px 20px;
+        background-color: rgb(184, 190, 199);
+        font-size: 12px;
+        color: rgb(46, 42, 42) ;
+    }
